@@ -17,6 +17,8 @@ const playlist = [
 function displayPlaylist() {
   let fragment = new DocumentFragment();
 
+  // <iframe data-testid="embed-iframe" width="100%" height="152" frameBorder="0" src="https://open.spotify.com/embed/track/73VqJSXXWF3pV5uqnuO92N" loading="lazy"></iframe>
+
   playlist.forEach((song) => {
     console.log(song);
   });
