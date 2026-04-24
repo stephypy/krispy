@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <button onclick="displayPlaylist()">TEST ME</button>
   <div class="container-fluid text-center brat">
     <h1 class="noto-sans-arabic-main">هولا كريم</h1>
     <h3 class="brat-main">(happy birthday)</h3>
@@ -36,24 +35,14 @@
   </div>
 
   <div class="container-fluid mt-5 center brat">
-    <div id="playlist-container" class="row row-cols-3 justify-content-md-center"></div>
+    <div id="playlist-container" class="row justify-content-md-center">
+      <iframe data-testid="embed-iframe" src="https://open.spotify.com/embed/playlist/1LfvbdcHwvamhVN4IiJGtE" 
+        width="100%" height="352" frameBorder="0" allowfullscreen="" clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy"
+      >  
+      </iframe>
+    </div>
   </div>
-
-  <!--
-  <div class="container-fluid mt-5 center brat">
-    <div class="row">
-      <div class="col-sm-4">
-        <iframe data-testid="embed-iframe" width="100%" height="152" frameBorder="0" src="https://open.spotify.com/embed/track/73VqJSXXWF3pV5uqnuO92N" loading="lazy"></iframe>
-      </div>
-      <div class="col-sm-4">
-        <iframe data-testid="embed-iframe" width="100%" height="152" frameBorder="0" src="https://open.spotify.com/embed/track/41TKPOt2QB6slyOE84rMDi" loading="lazy"></iframe>
-      </div>
-      <div class="col-sm-4">
-        <iframe data-testid="embed-iframe" width="100%" height="152" frameBorder="0" src="https://open.spotify.com/embed/track/7EejjSh1WDrm81z0u3Fhmk" loading="lazy"></iframe>
-      </div>
-    </div>  
-  </div>
-  -->
 
   <div class="container">
     "here goes a picture"
