@@ -14,9 +14,8 @@ const playlist = [
   "https://open.spotify.com/track/19ZrbiAIKOBKUYPXOHsLZu"
 ];
 
-let container = document.querySelector("#playlist-container");
-
 function displayPlaylist() {
+  let container = document.querySelector("#playlist-container");
   console.log("HELLO");
   console.log(container);
   let fragment = new DocumentFragment();
