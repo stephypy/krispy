@@ -1,4 +1,5 @@
-arabic-paragraph {
-  font: 1.2em "Fira Sans", sans-serif;
-  font-color: blue;
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+.droid-arabic-kufi {
+  font-family: 'Droid Arabic Kufi', serif;
 }
