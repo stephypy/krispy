@@ -13,3 +13,11 @@ const playlist = [
   "https://open.spotify.com/track/7ooheiWgbyNtGOBTPbjNoq",
   "https://open.spotify.com/track/19ZrbiAIKOBKUYPXOHsLZu"
 ];
+
+function displayPlaylist() {
+  let fragment = new DocumentFragment();
+
+  playlist.forEach((song) => {
+    console.log(song);
+  });
+}
