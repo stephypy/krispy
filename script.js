@@ -14,12 +14,25 @@ const playlist = [
   "https://open.spotify.com/track/19ZrbiAIKOBKUYPXOHsLZu"
 ];
 
+let container = document.querySelector("#music");
+
 function displayPlaylist() {
   let fragment = new DocumentFragment();
 
-  // <iframe data-testid="embed-iframe" width="100%" height="152" frameBorder="0" src="https://open.spotify.com/embed/track/73VqJSXXWF3pV5uqnuO92N" loading="lazy"></iframe>
-
   playlist.forEach((song) => {
     console.log(song);
+
+    let divElement = document.createElement("div");
+    let iframeElement = document.createElement("iframe");
+    iframeElement.data-testid = "embed-iframe";
+    iframeElement.height = "152";
+    iframeElement.frameBorder="0"
+    iframeElement.src = "song";
+    iframeElement.loading = "lazy";
+    
+    divElement.appendChild(iframeElement);
+    fragment.appendChild(divElement);
   });
+
+  container.appendChild(fragment);
 }
