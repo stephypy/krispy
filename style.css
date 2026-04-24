@@ -8,10 +8,12 @@
 
 .noto-sans-arabic-main {
   font-weight: 800;
+  font-size: 3em;
 }
 
 .noto-sans-arabic-secondary {
   font-weight: 400;
+  font-size: 1.6em;
 }
 
 .brat {
@@ -26,6 +28,7 @@
 
 .brat-main {
   font-weight: 400;
+  font-size: 2em;
 }
 
 .brat-secondary {
