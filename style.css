@@ -18,6 +18,8 @@
 
 .brat {
   background-color: #8ACE00;
+  margin: 12px;
+  padding: 16px;
 }
 
 .brat-main, .brat-secondary {
