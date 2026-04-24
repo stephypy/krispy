@@ -1,7 +1,18 @@
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+.noto-sans-arabic-main, .noto-sans-arabic-secondary {
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
-.droid-arabic-kufi {
-  font-family: 'Droid Arabic Kufi', serif;
+.noto-sans-arabic-main {
+  font-weight: 500;
+}
+
+.noto-sans-arabic-secondary {
+  font-weight: 100;
 }
 
 .test-color {
