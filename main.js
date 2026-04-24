@@ -34,5 +34,5 @@ function displayPlaylist() {
     fragment.appendChild(divElement);
   });
 
-  //container.appendChild(fragment);
+  container.appendChild(fragment);
 }
