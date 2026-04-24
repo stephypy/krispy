@@ -1,27 +1,33 @@
 .noto-sans-arabic-main, .noto-sans-arabic-secondary {
   font-family: "Noto Sans Arabic", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 
 .noto-sans-arabic-main {
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .noto-sans-arabic-secondary {
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .brat {
   background-color: #8ACE00;
 }
 
-.brat-main {
+.brat-main, .brat-secondary {
     font-family: 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
     line-height: 1;
     letter-spacing: -1px;
+}
+
+.brat-main {
+  font-weight: 600;
+}
+
+.brat-secondary {
+  font-weight: 300;
 }
