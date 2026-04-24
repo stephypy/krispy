@@ -17,6 +17,7 @@ const playlist = [
 let container = document.querySelector("#music");
 
 function displayPlaylist() {
+  console.log("HELLO");
   let fragment = new DocumentFragment();
 
   playlist.forEach((song) => {
